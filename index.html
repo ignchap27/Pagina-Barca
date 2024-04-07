@@ -24,29 +24,84 @@
                     <img src="/images/logo.png" alt="Imagen">
                 </div>
                 <div class="col-md-6">
-                    <h2>Cultura General</h2>
+                    <h2>¿Que vas a ver?</h2>
                     <ul>
-                        <li>Historia</li>
+                        <li>Comienzos</li>
                         <li>Jugadores</li>
-                        <li>Proximo Reto</li>
+                        <li>Contactanos</li>
                     </ul>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <h2>Historia</h2>
-                    <p>El barcita fue fundado por el año 1890, pero eso no importa, el club fue importante hasta que llego un tal Johan Cruyff</p>
-                    <div class="col-md-6">
-                        <img src="/images/cruyff.jpg" alt="Imagen">
+            <div class="row justify-content-center">
+                    <div>
+                        <h2>Comienzos</h2>
                     </div>
+            </div>
+            <div class="container">
+                    <div class="row justify-content-center">
+                        <p>El barcita fue fundado por el año 1890, pero eso no importa, el club fue importante
+                            hasta que llego un tal <a href="https://es.wikipedia.org/wiki/Johan_Cruyff">Johan Cruyff</a>
+                            que llegó como jugador y luego en la decada de los 90 como entrenador y cambiando la historia 
+                            del club, llevandolo a ser uno de los mejores de esa decada, el famoso Dream Team.
+                        </p>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-4 text-center d-flex align-items-center justify-content-center">
+                            <img src="/images/cruyff.jpg" alt="Jugador Cruyff" class="img-fluid">
+                        </div>
+                        <div class="col-4 text-center d-flex align-items-center justify-content-center">
+                            <img src="/images/cruyff_coach.jpg" alt="Entrenador Cruyff" class="img-fluid">
+                        </div>
+                        <div class="col-4 text-center d-flex align-items-center justify-content-center">
+                            <img src="/images/dreamTeam.jpg" alt="Dream Team de Barcelona" class="img-fluid">
+                        </div>
+                        
+                    </div>
+            </div>
+            <div class="row justify-content-center">
+                <div>
+                    <h2>Jugadores</h2>
                 </div>
             </div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <p>El club ha tenido jugadores de la talla de <a href="https://es.wikipedia.org/wiki/Lionel_Messi">Lionel Messi</a>,
+                        <a href="https://es.wikipedia.org/wiki/Ronaldinho">Ronaldinho</a> 
+                    los mejores y los favoritos de muchos por su talento y magia en la cancha.
+            </div>
+            <div class="container">
+                <div class="col text-center header-gradient">
+                    <h2>Contacta con nosotros</h2>
+                    <p class="lead">Para seguir hablando de este gran club</p>
+                </div>
+                
+                <form>
+                  <div class="form-group">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Introduce tu nombre" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Correo Electrónico</label>
+                    <input type="email" class="form-control" id="email" placeholder="Introduce tu correo electrónico" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" class="form-control" id="telefono" placeholder="Introduce tu número de teléfono">
+                  </div>
+                  <div class="form-group">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea class="form-control" id="mensaje" rows="3" placeholder="Escribe tu mensaje aquí" required></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+              </div>
+              <footer class="footer">
+                <div class="container">
+                    <p>Taller de HTML, CSS y Bootstrap hecho por Ignacio Chaparro</p>
+                </div>
+            </footer>
         </main>
-        <footer>
-            <p>Derechos de autor &copy; 2022 Mi página web</p>
-        </footer>
+        
     </div>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js"></script>
 </body>
 </html>

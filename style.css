@@ -2,3 +2,15 @@
     background: linear-gradient(to right, #0053a0, #ff2542);
     color: white; 
 }
+
+.footer {
+    padding: 20px 0;
+    background-color: #f8f9fa;
+    color: #6c757d;
+    text-align: center;
+    border-top: 1px solid #e9ecef;
+    margin-top: 10px;
+}
+.footer p {
+    margin-bottom: 0;
+}
